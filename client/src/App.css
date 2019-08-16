@@ -8,6 +8,10 @@
   pointer-events: none;
 }
 
+.container {
+  margin: 3rem 160px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -17,10 +21,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.graph-box {
-  width: 75%;
 }
 
 .App-link {

@@ -1,0 +1,164 @@
+@import "../Assets/fonts.scss";
+@import "../Assets/mixin.scss";
+
+// SCREEN WIDTH ---------------------------------
+
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+// COLOUR VARIABLES -----------------------------
+
+$black: #323232;
+$white: #ffffff;
+$alabaster: #fafafa;
+$lightsky: #0095ff;
+$darksky: #0065ad;
+$blue: #004892;
+$darkblue: #002f5f;
+
+.graph-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+// --------------- Graph 1
+
+.g1-box {
+  display: flex;
+  justify-content: center;
+}
+
+.graph1 {
+  display: flex;
+}
+
+.summary1 {
+  display: flex;
+  flex: 0 1 auto;
+  @include h4abig;
+  justify-content: center;
+  align-self: center;
+  margin-left: 13rem;
+  text-align: center;
+
+  width: 600px;
+  height: 250px;
+  font-family: Avenir;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #977c7c;
+}
+
+// --------------- Graph 2
+
+.g2-box {
+  display: flex;
+  margin: 1rem;
+}
+
+.graph2 {
+  display: flex;
+  width: 100%;
+}
+
+.summary2 {
+  display: flex;
+  flex: 1 0 auto;
+  @include h4abig;
+  justify-content: center;
+  align-self: center;
+}
+
+// --------------- Graph 3
+
+.g3-box {
+  display: flex;
+  margin: 1rem;
+}
+
+.graph3 {
+  display: flex;
+}
+
+.summary3 {
+  display: flex;
+  flex: 1 0 auto;
+  @include h4abig;
+  justify-content: center;
+  align-self: center;
+}
+
+// --------------- Graph 4
+
+.g4-box {
+  display: flex;
+  margin: 1rem;
+}
+
+.graph4 {
+  display: flex;
+  width: 1000px;
+}
+
+.summary4 {
+  display: flex;
+  flex: 1 0 auto;
+  @include h4abig;
+  justify-content: center;
+  align-self: center;
+}
+
+// --------------- Graph 5
+
+.g5-box {
+  display: flex;
+  margin: 1rem;
+}
+
+.graph5 {
+  display: flex;
+  width: 1000px;
+}
+
+.summary5 {
+  display: flex;
+  flex: 1 0 auto;
+  @include h4abig;
+  justify-content: center;
+  align-self: center;
+}
+
+.fourbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 5rem;
+  background-color: $alabaster;
+  padding: 1rem;
+}
+
+.foursummary {
+  margin-top: 3rem;
+  display: flex;
+  flex: 0 1 auto;
+  @include h4abig;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  
+  width: 80%;
+  height: 250px;
+  font-family: Avenir;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #977c7c;
+}
