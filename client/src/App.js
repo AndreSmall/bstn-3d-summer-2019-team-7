@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Iframe from 'react-iframe'
-import Graph from '../src/Graph/Graph'
+import Graph from '../src/Graph/Graph';
+import Blog from './components/Blog/Blog';
 
 
 
@@ -12,7 +12,8 @@ class App extends React.Component {
   
   return (
     <div className="graph-box">
-     <Graph />
+      <Blog/>
+      <Graph />
     </div>
   );
 }}
