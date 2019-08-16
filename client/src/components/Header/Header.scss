@@ -29,7 +29,7 @@ $darkblue: #002f5f;
     &__wrapper {
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-between;
       align-self: center;
       vertical-align: center;
       width: 90%;
@@ -39,9 +39,9 @@ $darkblue: #002f5f;
     &__logo {
       display: flex;
       justify-content: flex-start;
-      align-self: center;
-      width: 100%;
-      height: 100%;
+      align-self: flex-start;
+      width: 28%;
+    //   height: 80%;
     }
 
     &__search {
@@ -69,11 +69,11 @@ $darkblue: #002f5f;
     display: flex;
     flex: 0 1 auto;
     justify-content: flex-start;
-    
-    
+
+
   }
 
-  
+
 
   a:visited {
     text-decoration: none;
@@ -89,4 +89,3 @@ $darkblue: #002f5f;
   a:link {
     text-decoration: none;
   }
-
