@@ -12,11 +12,14 @@ class App extends React.Component {
 
   
   return (
+    <>
     <div className="graph-box">
       <Blog/>
       <Graph />
-      <TopVideos/>
+      
     </div>
+    <TopVideos />
+    </>
   );
 }}
 
