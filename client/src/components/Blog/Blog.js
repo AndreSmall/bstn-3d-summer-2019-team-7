@@ -7,8 +7,8 @@ class Blog extends React.Component {
         return (
             <div className="blog"> 
                 <div className="blog__left">
-                    <h1 className="blog__title">Title</h1>
-                    <p className="blog__details">Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer. </p>
+                    <h1 className="blog__title">Influencer content inspired by real life</h1>
+                    <p className="blog__details">At Instaconnected, we thoughtfully curate essential influencer content related to activism, business, culture and art.  Choose your path today to make your impact tomorrow. </p>
                 </div>
                 <div className="blog__right">
                     <img className="blog__image" src={hero} alt=""/>

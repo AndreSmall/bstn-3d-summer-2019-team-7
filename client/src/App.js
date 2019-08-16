@@ -3,6 +3,7 @@ import './App.css';
 import Iframe from 'react-iframe'
 import Graph from '../src/Graph/Graph';
 import Blog from './components/Blog/Blog';
+import TopVideos from './components/TopVideos/TopVideos';
 
 
 
@@ -14,6 +15,7 @@ class App extends React.Component {
     <div className="graph-box">
       <Blog/>
       <Graph />
+      <TopVideos/>
     </div>
   );
 }}
