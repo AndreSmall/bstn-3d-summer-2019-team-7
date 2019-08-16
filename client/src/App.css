@@ -19,6 +19,10 @@
   color: white;
 }
 
+.graph-box {
+  width: 75%;
+}
+
 .App-link {
   color: #61dafb;
 }
