@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Iframe from 'react-iframe';
-// import Graph1 from './components/Graph/Graph1';
 import Header from './components/Header/Header';
 import GraphCard from './components/GraphCard/GraphCard';
+import Blog from './components/Blog/Blog';
+import TopVideos from './components/TopVideos/TopVideos';
 
 
 
@@ -13,19 +12,12 @@ class App extends React.Component {
 
   
   return (
-    <>
+  <>
     <Header />
-    <div className='container'>
+    <Blog/>
+    <div className='container'>    
     <GraphCard />
-
-    
-           
- 
-
-
-
-
-
+    <TopVideos/>
     </div>
     </>
   );

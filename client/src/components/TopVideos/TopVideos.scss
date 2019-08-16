@@ -1,0 +1,16 @@
+.videos {
+    &__heading {
+
+    }
+
+    &__content {
+        display: flex;
+        flex-flow: row wrap;
+        width: 50%;
+    }
+
+
+    &__iframe {
+        width: 50%;
+    }
+}

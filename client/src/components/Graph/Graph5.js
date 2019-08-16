@@ -1,7 +1,7 @@
 import React from 'react';
 import tableau from 'tableau-api';
 
-class Graph2 extends React.Component {
+class Graph5 extends React.Component {
 
 
 
@@ -11,7 +11,7 @@ class Graph2 extends React.Component {
 
 
 	initViz() {
-        const vizUrl = 'https://public.tableau.com/views/BusinessViewsoverTime/BusinessViewsoverTime?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link';
+        const vizUrl = 'https://public.tableau.com/views/CultureViewsoverTime/CultureViewsoverTime?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link';
 		const vizContainer = this.vizContainer;
 		let viz = new window.tableau.Viz(vizContainer, vizUrl)
 	}
@@ -35,4 +35,4 @@ class Graph2 extends React.Component {
 }
 
 
-export default Graph2;
+export default Graph5;

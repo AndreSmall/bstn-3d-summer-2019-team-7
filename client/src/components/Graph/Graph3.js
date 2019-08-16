@@ -11,7 +11,7 @@ class Graph3 extends React.Component {
 
 
 	initViz() {
-		const vizUrl = 'https://public.tableau.com/views/Test_15659202556420/Sheet2?:embed=true&:display_count=no&:origin=viz_share_link';
+		const vizUrl = 'https://public.tableau.com/views/ArtViewsoverTime/ArtViewsoverTime?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link';
 		const vizContainer = this.vizContainer;
 		let viz = new window.tableau.Viz(vizContainer, vizUrl)
 	}

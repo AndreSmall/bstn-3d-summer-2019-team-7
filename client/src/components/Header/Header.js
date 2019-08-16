@@ -1,7 +1,7 @@
 import React from 'react';
 // import { Link } from 'react-router-dom'
 import './Header.scss';
-import logo from '../Assets/Logo/LOGO.png'
+import logo from '../Assets/Logo/lolz.png'
 
 class Header extends React.Component {
     render() {
@@ -27,4 +27,4 @@ class Header extends React.Component {
     }
 }
 
-export default Header
+export default Header;
