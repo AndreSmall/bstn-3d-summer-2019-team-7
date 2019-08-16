@@ -1,0 +1,92 @@
+@import "../Assets/fonts.scss";
+@import "../Assets/mixin.scss";
+
+// SCREEN WIDTH ---------------------------------
+
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+// COLOUR VARIABLES -----------------------------
+
+$black: #323232;
+$white: #ffffff;
+$alabaster: #fafafa;
+$lightsky: #0095ff;
+$darksky: #0065ad;
+$blue: #004892;
+$darkblue: #002f5f;
+
+
+// DESKTOP ---------------------------------------
+
+  .header {
+    display: flex;
+    background-color: $black;
+    height: 100px;
+    width: 100vw;
+
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-self: center;
+      vertical-align: center;
+      width: 90%;
+      margin: 0 160px;
+    }
+
+    &__logo {
+      display: flex;
+      justify-content: flex-start;
+      align-self: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    &__search {
+      display: flex;
+      // justify-content: center;
+      align-self: center;
+      padding-left: 2rem;
+      @include h5big;
+      border: solid lightgray 2px;
+      border-radius: 4px;
+      height: 48px;
+      background: url("../Assets/Icons/SVG/Icon-search.svg") no-repeat;
+      background-position: 0.5rem center;
+      background-color: $alabaster;
+      width: 300px;
+      margin: 0 1rem;
+
+      &:focus {
+        border-color: $lightsky;
+    }
+    }
+  }
+
+  .searchbox {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: flex-start;
+    
+    
+  }
+
+  
+
+  a:visited {
+    text-decoration: none;
+    color: $white;
+    opacity: 0.6;
+  }
+
+  a:hover a:active {
+    text-decoration: none;
+    color: $white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+

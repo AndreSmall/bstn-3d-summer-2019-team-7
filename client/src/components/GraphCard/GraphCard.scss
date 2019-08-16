@@ -1,0 +1,79 @@
+@import "../Assets/fonts.scss";
+@import "../Assets/mixin.scss";
+
+// SCREEN WIDTH ---------------------------------
+
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+// COLOUR VARIABLES -----------------------------
+
+$black: #323232;
+$white: #ffffff;
+$alabaster: #fafafa;
+$lightsky: #0095ff;
+$darksky: #0065ad;
+$blue: #004892;
+$darkblue: #002f5f;
+
+
+.graph-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+// --------------- Graph 1
+
+.g1-box {
+    display: flex;
+}
+
+.graph1 {
+    display: flex;    
+}
+
+.summary1 {
+    display: flex;
+    flex: 1 0 auto;
+    @include h4abig;
+    justify-content: center;
+    align-self: center;
+}
+
+// --------------- Graph 2
+
+.g2-box {
+    display: flex;
+}
+
+.graph2 {
+    display: flex;
+}
+
+.summary2 {
+    display: flex;
+    flex: 1 0 auto;
+    @include h4abig;
+    justify-content: center;
+    align-self: center;
+}
+
+// --------------- Graph 3
+
+.g3-box {
+    display: flex;
+}
+
+.graph3 {
+    display: flex;    
+}
+
+.summary3 {
+    display: flex;
+    flex: 1 0 auto;
+    @include h4abig;
+    justify-content: center;
+    align-self: center;
+}
+
