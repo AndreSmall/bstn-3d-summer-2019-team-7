@@ -1,16 +1,59 @@
-.videos {
-    &__heading {
+@font-face {
+    font-family: 'Avenir';
+    src: url("../Assets/Fonts/Linotype\ -\ AvenirNextLTPro-Light.otf") format("opentype");
+}
 
+@font-face {
+    font-family: 'AvenirBold';
+    src: url("../Assets/Fonts/Linotype\ -\ AvenirNextLTPro-Demi.otf") format("opentype");
+}
+
+
+.videos {
+    // margin: 0 4rem;
+    &__heading {
+        color:  #587684;
+        font-family: 'Avenir';
+        font-size: 50px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #587684;
+    }
+
+    &__box {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        height: 1000px;
     }
 
     &__content {
         display: flex;
-        flex-flow: row wrap;
-        width: 50%;
+        flex-flow: column wrap;
+        color:  #587684;
+        width: 40%;
+        
+        
     }
 
+    &__title {
+        font-family: "AvenirBold";
+        font-size: 40px;
+        font-weight: 100;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #587684;
+    }
 
     &__iframe {
-        width: 50%;
+        color:  #587684;
+        width: 100%;
+        height: 400px;
+    
     }
 }
