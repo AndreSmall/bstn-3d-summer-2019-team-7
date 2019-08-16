@@ -1,27 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Iframe from 'react-iframe'
+import Graph from '../src/Graph/Graph'
 
-function App() {
+
+
+class App extends React.Component {
+  render() {
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Production Test
-        </p>
-
-        <a
-          className="App-link"
-          href={`http://localhost:8080/ping`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Local Express Server ping
-        </a>
-      </header>
+    <div className="graph-box">
+     <Graph />
     </div>
   );
-}
+}}
 
 export default App;
